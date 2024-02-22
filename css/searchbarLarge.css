@@ -1,0 +1,35 @@
+.searchbarDiv {
+  width: 100%;
+  margin: 10px 26px;
+}
+.searchbarDiv div {
+  width: 100%;
+  position: relative;
+}
+.searchbarDiv input {
+  width: 100%;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.searchbarDiv img {
+  width: 35px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 2px;
+  border-radius: 3px;
+}
+.searchbarDiv img:active {
+  transform: scale(0.95);
+}
+@media screen and (min-width: 992px) {
+  .searchbarDiv div {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
